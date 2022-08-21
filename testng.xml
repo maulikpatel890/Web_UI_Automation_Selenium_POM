@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNGReport" preserve-order="false">
+<!--    <parameter name="environment"  value="qa"/>-->
+    <test name="IPLPointTable">
+        <classes>
+            <class name="com.carbmanager.testRunners.TestRunner"></class>
+        </classes>
+    </test>
+</suite>

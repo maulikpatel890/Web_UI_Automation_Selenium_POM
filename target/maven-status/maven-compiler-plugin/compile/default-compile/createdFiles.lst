@@ -1,0 +1,8 @@
+pages/CommonPage.class
+base/BaseClass.class
+util/DeviceSettings.class
+base/MessageEnum.class
+util/Log.class
+util/TestUtils.class
+pages/PointTablePage.class
+util/DriverManager.class

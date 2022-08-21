@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-21T11:00:30.918Z",
+        "line": 3,
+        "name": "Verify user is able to navigate to sign in page.",
+        "description": "",
+        "id": "as-a-registered-user-of-carb-manager-web-app--i-want-to-login-to-carb-manager-web-app.;verify-user-is-able-to-navigate-to-sign-in-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 1014800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.carbmanager.steps.CommonHooks.takeScreenshotOnFailure(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 229997400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User visits the landing page of carb manager web app.",
+            "match": {
+              "location": "com.carbmanager.steps.login.LoginSteps.openTestAppUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89001900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on sign in link",
+            "match": {
+              "location": "com.carbmanager.steps.login.LoginSteps.clickSignInLink_landingPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7997600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be redirected to sign in page",
+            "match": {
+              "location": "com.carbmanager.steps.login.LoginSteps.verify_redirection_to_sign_in_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 530648700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify sign in page contents",
+            "match": {
+              "location": "com.carbmanager.steps.login.LoginSteps.verify_sign_in_page_content()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a registered user of carb manager web app, I want to login to carb manager web app.",
+    "description": "",
+    "id": "as-a-registered-user-of-carb-manager-web-app--i-want-to-login-to-carb-manager-web-app.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login/LoginTests.feature",
+    "tags": []
+  }
+]
